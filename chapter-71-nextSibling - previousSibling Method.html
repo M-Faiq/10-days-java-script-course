@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html id="main">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            background: lightsalmon;
+            margin: 0 auto;
+            width: 600px;
+            height: 300px;
+            padding: 10px;
+        }
+
+        #inner{
+        width: 500px;
+        height: 170px;
+        padding:10px;
+        margin:0 auto ;
+        background: mediumorchid; 
+        }
+        #inner div{
+        display: inline-block;
+        background: #fff;
+        width: 95px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+    <h2>Outer</h2>
+    <div id="inner">
+    <h2 id="child-head">Inner</h2>
+   <div>A</div>
+    <div>B</div>
+    <div id="child-C">C</div><!--<div>D</div>-->
+    <div id="child-E">E</div>
+    </div>
+    </div>
+
+    <script src="nextSibling - previousSibling Method.js"></script>
+</body>
+</html>
